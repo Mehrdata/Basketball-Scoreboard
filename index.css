@@ -1,0 +1,123 @@
+html{
+    height: 100%;
+    background-color: #151515;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: dot;
+    src: url(dot.TTF);
+}
+
+h2{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px;
+}
+
+
+.board{
+    background-color: #222222;
+    width: 180px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 10px  30px;
+    padding: 20px 10px 10px;
+
+}
+
+p{
+    margin: 0;
+}
+
+#home-score{
+    color: #FF9900;
+    font-size: 4em;
+    font-family: dot, cursive;
+    text-shadow: 0px 0px 5px #FF9900;
+}
+
+#guest-score{
+    color: #ff0000;
+    font-size: 4em;
+    font-family: dot, cursive;
+    text-shadow: 0px 0px 5px #ff0000;
+}
+
+.btn{
+    all: unset;
+    width: 60px;
+    height: 60px;
+    background-color: #222222 ;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    border-width: 1px;
+    border-color: #4e4e4e;
+    border-style: solid;
+}
+
+.btn:hover{
+    background-color: black ;
+    cursor: pointer;
+}
+
+.reset-btn{
+    all: unset;
+    width: 190px;
+    height: 40px;
+    background-color: #222222 ;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-align: center;
+    border-width: 1px;
+    border-color: #4e4e4e;
+    border-style: solid;
+    margin: 5px 0px 5px;
+}
+
+.reset-btn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
+
+body{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+
+#home-section{
+    width: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#guest-section{
+    width: auto;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+
+.score-btns{
+    text-align: center;
+}
